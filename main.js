@@ -13,11 +13,10 @@ document.addEventListener("DOMContentLoaded", ()=>{
         }
 
         fetch(`https://api.apilayer.com/exchangerates_data/convert?to=${to.value}&from=${from.value}&amount=${amount.valueAsNumber}`, requestOptions)
-
-            .then(response => response.json)
+            .then(response => response.json())
             .then(data => {
-                let {info, date, query:{to},result} = data
-                document.querySelector(".result").textContent=`As per the Exchange Rate : ${info.rate} for ${date} => converted value in ${query.to} is ${result}`
+                let {result} = data;
+                document.querySelector(".result").textContent=`As per the Exchange Rate is ${result}`
             })
     })
 })
