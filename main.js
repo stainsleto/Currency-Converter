@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
         const {target:{from, to, amount}} = event;
 
         let headers = new Headers();
-        headers.append("apikey","YFsMiMLODqQlhsTSAaRIrYSdusufryk0");
+        headers.append("apikey","// Your key Goes here ");
 
         const requestOptions = {
             method:"GET",
