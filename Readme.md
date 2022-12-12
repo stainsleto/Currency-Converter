@@ -11,9 +11,11 @@ Used Promises in JavaScript to fetch data from the Json File
 
 ## API Details
 
-Get API from  --> https://apilayer.com/
+Get API from  --> https://apilayer.com/ 
 
-Insert your API Key inside apiKey const 
+API Product Link --> https://apilayer.com/marketplace/currency_data-api
+
+Insert your API Key inside header.append  in headers function 
 
 ## Author 
 
