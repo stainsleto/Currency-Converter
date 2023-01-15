@@ -1,4 +1,4 @@
-## Weather App using Vanilla JS 
+## Currency Converter using Vanilla JS 
 
 ## Project Details
 
@@ -17,7 +17,7 @@ API Product Link --> https://apilayer.com/marketplace/currency_data-api
 
 Insert your API Key inside header.append  in headers function 
 
-## Author 
+## Author - Stains
 
 linkedin - https://linkedin.com/in/stains-leto
 
